@@ -1,0 +1,8 @@
+exports[`test Button snapshot 1`] = `
+<button
+  className="btn"
+  onClick={undefined}
+  type="submit">
+  submit
+</button>
+`;

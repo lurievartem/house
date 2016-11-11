@@ -1,0 +1,5 @@
+webpack/*
+karma.conf.js
+test.webpack.js
+nodemon.json
+*.spec.js

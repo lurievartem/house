@@ -1,0 +1,19 @@
+{
+    "moduleFileExtensions": ["jsx", "js"],
+    "moduleDirectories": ["node_modules"],
+    "moduleNameMapper": {
+        "^.+\\.(css|scss$)$": "<rootDir>/test/styleMock.js",
+        "^.+\\.(gif|ttf|eot|svg|jpg|png|woff|woff2)$": "<rootDir>/test/fileMock.js"
+    },
+    "collectCoverageFrom": [
+        "src/*.js"
+    ],
+    "coverageThreshold": {
+        "global": {
+            "branches": 100,
+            "functions": 100,
+            "lines": 100,
+            "statements": 100
+        }
+    }
+}

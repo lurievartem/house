@@ -1,0 +1,8 @@
+# Idea config
+.DS_Store
+.idea
+node_modules/
+coverage/
+npm-debug.log
+dist/
+.pdf
